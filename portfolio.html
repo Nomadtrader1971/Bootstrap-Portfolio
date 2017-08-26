@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+      <title>Homework 2 Part 2 Using CSS Bootstrap</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    
+ 
+</head>
+<body>
+
+<!-- I want to use the second class name "container-top" in my own stylesheet to make any changes that are still needed and that I could not make using CSS Bootstrap. Is this appraocch correct? Is the syntax correct? -->
+  
+  <div class="container top-container">
+    <div class = "row top-row">
+    <div class = "col-lg-4 logo"><h2>Nomadtrader The Coder</h2></div> <!-- close of "page-header-->
+      
+    <div class = "col-lg-8 navigation">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!--<a class="navbar-brand" href="#">Navbar</a>-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">about<span class="sr-only">(current)</span></a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link" href="contact.html">contact</a>
+                    </li>
+              </ul>
+            </div>
+          </nav>
+
+      </div>
+  </div> <!-- close of "row" -->
+  </div>
+
+
+
+<div class="container middle-container"> <!-- I do not need another container -->
+ <div class="row row-main">
+    <div class="col-lg-6 offset-lg-2 text1">
+      <h3>Portfolio</h3>
+      
+      <img src="images/pp1.jpg" class="img-thumbnail">
+      <img src="images/pp2.jpg" class="img-thumbnail">
+      <img src="images/pp3.jpg" class="img-thumbnail">
+      <img src="images/pp4.jpg" class="img-thumbnail">
+      <img src="images/pp5.jpg" class="img-thumbnail">
+
+
+    </div>
+    <div class="col-lg-3 offset-lg-1 text2">
+      <h3>Contact With Me</h3>
+
+        <a href="contact.html"><img class="icon" src="images/github-icon.png"/></a>
+        <a href="contact.html"><img class="icon"  src="images/linkedin-icon.png"/></a>
+        <a href="contact.html"><img class="icon" src="images/stackoverflow-icon.png"/></a>
+  </div>
+  </div>
+
+<div class="container bottom-container"
+
+<div class="fixed-bottom footer">&copy Copyright 2016 Abdel-Kader Ben-Mohamed</div>
+
+</div>
+
+
+</body>
+</html>

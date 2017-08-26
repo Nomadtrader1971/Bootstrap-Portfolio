@@ -1,0 +1,112 @@
+
+     /*.logo{
+      background-color: #777777; 
+     } 
+
+      .navigation{
+        background-color: #888888;
+      }
+      .bottom-container{
+        background-color: #777777;
+      }
+      .middle.container{
+        width: 960px;
+      }
+      .text1{
+        width: 650px;
+      }
+      .text2{
+        width: 270px;
+      }*/
+
+      .logo {
+        /*float: left;*/
+        width: 250px;
+        height: 100px;
+        font-family: Georgia, Times, "Times New Roman", serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 90px;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        background: #4aaaa5;
+        
+      }
+      .navigation{
+        height: 100px;
+        color: #fff;
+        background: #fff;
+        border-bottom: 2px solid #ccc;
+      }
+
+      .hacker{
+        float: left;
+        width: 200px;
+        height: auto;
+        margin-top: 10px;
+        margin-right: 25px;
+      }
+
+      .text1{
+        float: left;
+        width: 100%;
+        max-width: 650px;
+        padding: 30px;
+        margin: 20px 20px 40px 20px;
+        background: #fff;
+        border: 1px solid #ddd;
+      }
+
+      .text2{
+        float: right;
+        width: 100%;
+        width: 270px;
+        max-width: 270px;
+        padding: 30px;
+        margin-top: 20px;
+        background: #fff;
+        border: 1px solid #ddd;
+        height: 200px;
+      
+      }
+
+      .icon{
+        width: 50px;
+        height: 50px;
+        margin-top: 8px;
+        margin-right: 5px;
+        display: inline;
+      }
+    .bottom-container {
+      padding: 30px 0;
+      clear: both;
+      font-size: 12px;
+      color: #fff;
+      color: #ccc;
+      text-align: center;
+      background: #666;
+      border-top: 8px solid #4aaaa5;
+    }
+
+    
+    h3 {
+      font-family: Georgia, Times, "Times New Roman", serif;
+      font-weight: 700;
+      color: #4aaaa5;
+      font-size: 22px;
+      text-decoration: underline;
+    }
+    .btn{
+      background-color: #4aaaa5;
+      border: 0;
+    }
+    .img-thumbnail{
+      width: 200px;
+      height: 200px;
+      padding:10px;
+      align-content: center;
+    }
+
+
+
